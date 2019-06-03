@@ -118,7 +118,8 @@ def game_hash
  def num_points_scored(players_name)
    #return num of points for player passed in
    game_hash.each do |place, team| 
-     team.each do |
+     team.each do |attribute, data|
+     end 
    end 
  end 
 
