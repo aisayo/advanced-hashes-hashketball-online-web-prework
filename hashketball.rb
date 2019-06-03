@@ -203,7 +203,6 @@ def player_stats(players_name)
     team.each do |attributes, data|
       if attributes == :players
         data.each do |player|
-          binding.pry
           if player[:player_name] == players_name
             new_hash = player
           end 
