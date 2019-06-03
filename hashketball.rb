@@ -121,7 +121,7 @@ def game_hash
      team.each do |attribute, data|
        if attribute == :players 
          data.each do |player|
-           
+           binding.pry
          end 
        end
      end 
