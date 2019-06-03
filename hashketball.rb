@@ -160,6 +160,9 @@ end
 
 def team_names 
   new_arr = []
+  game_hash.each do |place, team|
+    
+  end 
 end 
 
 
