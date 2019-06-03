@@ -158,6 +158,10 @@ def team_names
   end 
 end 
 
+def team_names 
+  new_arr = []
+end 
+
 
 
 
