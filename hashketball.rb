@@ -119,7 +119,11 @@ def game_hash
    #return num of points for player passed in
    game_hash.each do |place, team| 
      team.each do |attribute, data|
-       if 
+       if attribute == :players 
+         data.each do |player|
+           
+         end 
+       end
      end 
    end 
  end 
