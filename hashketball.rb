@@ -198,6 +198,10 @@ end
 # end 
 
 def player_stats(players_name)
+  new_hash = {}
+  game_hash.each do |place, team|
+    
+  end 
 end 
 
 
