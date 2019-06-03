@@ -158,13 +158,13 @@ def team_names
   end 
 end 
 
-def team_names 
-  new_arr = []
-  game_hash.each do |place, team|
-    new_arr << team[:team_name]
-  end 
-  new_arr
-end 
+# def team_names 
+#   new_arr = []
+#   game_hash.each do |place, team|
+#     new_arr << team[:team_name]
+#   end 
+#   new_arr
+# end 
 
 
 
