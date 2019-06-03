@@ -189,13 +189,12 @@ def player_numbers(team_name)
       team.each do |attributes, data|
         if attributes == :players
           data.each do |player|
-            nums << player[:number]
+            return player[:number]
           end 
         end 
       end 
     end
   end 
-  nums
 end 
 
 
