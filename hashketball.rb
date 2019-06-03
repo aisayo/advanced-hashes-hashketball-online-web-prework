@@ -136,7 +136,7 @@ def game_hash
        if attribute == :players 
          data.each do |player|
            if player[:player_name] == players_name
-             return player[:points]
+             return player[:shoe]
            end
          end 
        end
