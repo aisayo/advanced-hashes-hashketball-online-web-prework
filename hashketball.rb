@@ -118,7 +118,6 @@ def game_hash
    game_hash.each do |place, team| 
      
    end 
-   
  end 
 
 
